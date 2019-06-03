@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "homework5-luvensaitory",
+    "private_key_id": "a9dcf3f1d3acda8603078beb150bc4d41ecfb3a3",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJvkj0zauT+W/d\nayhefUOopoVsM346yJjxSpJjDnP7Z+U8FWg9Al4LVqx//PSwOuAlDB/XGgOX7K6w\nyoscu+/5QIP/gDvxv3eQlNi1ZyrjbW041JAQcJAtUAC2rxGDuA+bxaa6IAVw8F5w\nE5lO+LyBuW3LlgyWY8PtYzPC13iMqCoHEuwv0y2E5z0zBRSNLUJx5vpYx9UULopY\nHJNH0hbC0OsBjsBNI6Cnv+OuGW+vPk6nCwBRuSOKXgTZf1yiRgeuy7CwBgETaH3e\nayvKl1v1bHhIQqPQa44GVhCfars50nJjA5jJlYx4INNl626hCA8aIWEAGMnHHHcL\nkzOzJcIPAgMBAAECggEAY0PIFQAP0Ob2Zl2gBuIexOBunN83WIg0TOFy5t+JLOYh\nkm88E2zTRkP266DU6tOFT2VIU2f+5aV1DRMT4OcOPDfE2xZHKHubwp2ihZuGLFI+\n4Cwi2JvyLQGE4F6CwStzLqPRlhpEYx46cW4LTKKx6iiJgBdMCUF8eZUKtm+b5qTE\n4JN/6zfnrKj6CBXTe+ECnFPM1gFvZ2/5AC3vdweuJ2bNrXDSqC5Kv6eHB49Vfqf8\n0Fd65wT932G121Cyy/Fba9eqGIifFvRcV3sUuyacym6PfS3PQH+0lkR0WMZ9ZBr7\nq8BO7ktq/JzP2hPJfDx+o/fmSspYoGuXZdcJFwhTMQKBgQD879fBQUb0FIr+Gy1P\n0LDpQKEb66W+u9rjvdZ3pspczb9ubWY06eCI4hcU4AvmWbprLuWEiMq/Ck/8SDb8\n8/6eU+Q4LRpgmAq+bhnY7kmHLpcThYj2OOk7BIXyMLqr04JlSNBGZHKPbswdl141\n3a1U65I71ryrgVYucN3/wxhPEQKBgQDML7s7tXcCNz04TQvQpZogicagsQAM2ebQ\nTNrQMsc+4Xayx36zNX6641YqvXEiAIm1PSJ4A5GBRYdrpehLAMAcYebO76Mg3EGZ\nKKyWQ3RnCqkILg1apPIndGz+WH/9Nwitw0xN0EPA94iaTLPpRGygWmavzdb39SNR\nARFfmc8/HwKBgQC8+mGj9SaTFIoogpufJ5gWHgCBQNXsJKTNRTfo28gUAHFHixsy\n646kFvAR27doWp/qlvZKyH1asNTD9ByJb69MEffQdPphMxfL4a0UJCzxgEDGCB4l\ngK3ZN27wXbIK0RN6oyVhgokJW0nLzh1Id6CacwsmBDGgnhiKyC9FeTk/UQKBgHUs\nmwzbySzLWGV7yWD196nehs7mZDn7vfohcJxz12Vda4mS9EGRXGWRWnxydH7nwh7w\ns1wd6B1AMkNzVQfdqWFgSVzNplaQL1DeR5R/p0gOlQvtqZov+AruRDH9xY0hTOiy\nn5I0Bv2wz4KEq+Ycbx3iYvVWcZuf4KF2tGqhUI5PAoGBAPPoYvh2FZXRMlyhf8Np\nnECmy7bRp8HthpHD4Zn1736F5lNxSANWC3rTDTIvPk9NA5dDiOD7ZL8P/+ew2112\nCYHa7dAl5JHhzBNDcCQZcql2QDaKgbpah6RSSf7r7NktDLczpdoJ/s0YVtn5xL4o\nSuTu55ZRbONCGyHv7v5DEZ2j\n-----END PRIVATE KEY-----\n",
+    "client_email": "hw5-luvensaitory@homework5-luvensaitory.iam.gserviceaccount.com",
+    "client_id": "108972619533569461707",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hw5-luvensaitory%40homework5-luvensaitory.iam.gserviceaccount.com"
+}
