@@ -46,10 +46,32 @@ async function onPatch(req, res) {
     const column = req.params.column;
     const value = req.params.value;
     const messageBody = req.body;
-
-    // TODO(you): Implement onPatch.
-
-    res.json({ status: 'unimplemented' });
+    const result = await sheet.getRows();
+    const rows = result.rows;
+    let idx = -1;
+    for (let i = 0; i < rows[0].length; i++) {
+        if (rows[0][i].toUpperCase() === column.toUpperCase()) {
+            idx = i;
+            break;
+        }
+    }
+    let ans = [],
+        setIdx = -1;
+    for (let i = 1; i < rows.length; i++) {
+        if (rows[i][idx] === value) {
+            setIdx = i;
+            for (let j = 0; j < rows[0].length; j++) {
+                if (rows[0][j] in messageBody) {
+                    ans.push(messageBody[rows[0][j]]);
+                } else {
+                    ans.push(rows[i][j]);
+                }
+            }
+            break;
+        }
+    }
+    const status = await sheet.setRow(setIdx, ans)
+    res.json(status);
 }
 app.patch('/api/:column/:value', jsonParser, onPatch);
 
@@ -60,7 +82,7 @@ async function onDelete(req, res) {
     const rows = result.rows;
     let idx = -1;
     for (let i = 0; i < rows[0].length; i++) {
-        if (rows[0][i] === column) {
+        if (rows[0][i].toUpperCase() === column.toUpperCase()) {
             idx = i;
             break;
         }
